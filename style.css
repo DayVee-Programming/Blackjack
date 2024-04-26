@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --bg: green;
+}
+
+body {
+  background: var(--bg);
+}
+
+.player {
+  position: fixed;
+  top: 80%;
+  left: 10%;
+  display: flex;
+  gap: 10px;
+  border: 5px solid white;
+}
